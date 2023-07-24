@@ -1,37 +1,47 @@
-body{
+body {
     margin: 0%;
 }
-.head-div{
+
+.head-div {
     height: 40px;
     width: 100%;
     background-color: rgb(10, 202, 202);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
-nav{
-    height: 140px;
+
+.nav-div {
+    margin-top: 0%;
+    height: 105px;
     width: 100%;
     background-color: rgb(225, 251, 251);
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
-.open-book-label{
- margin-left: 0%;
-  margin-bottom: 0%;
-  margin-top: 130px;
+
+.open-book-label {
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-top: 130px;
 
 }
-.logo{
+
+.logo {
     margin-bottom: 0;
-  
+
     margin-left: 20px;
 }
-.navigation{
-display: inline-block;
-margin: 10px 30px;
-text-decoration: none !important;
-color: #130f0f;
-margin-left: auto;
+
+.navigation {
+    display: inline-block;
+    margin: 10px 30px;
+    text-decoration: none !important;
+    color: #130f0f;
+    margin-left: auto;
 }
+
 .nav-links {
     align-items: center;
 
@@ -40,7 +50,153 @@ margin-left: auto;
     text-decoration: none;
     color: #1c1919;
 }
+
 .nav-links ul li {
     text-decoration: none;
     color: #100e0e;
+}
+
+/* sign up */
+.sign-up {
+    margin-right: 50px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.login {
+    border: none;
+    margin-right: 40px;
+    background-color: rgb(10, 202, 202);
+
+}
+
+.login:hover {
+    border: none;
+    border-radius: 10px;
+
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(10, 202, 202);
+}
+
+.anchor-link:hover {
+    display: block;
+    text-decoration: none;
+    color: rgb(215, 241, 15);
+    border-radius: 10px;
+}
+
+.body-structure {
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+}
+
+.img {
+    height: 400px;
+
+}
+
+.std-cource {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h1-div {
+    padding: 50px;
+}
+
+.h1-para {
+    font-size: 25px;
+}
+.cource-cards-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cource-cards-div .card{
+    height: 300px;
+    margin-top: 60px;
+    width: 300px;
+    border: 5px solid black;
+
+} 
+.cource-card{
+    height: 220px;
+    width: 250px;
+    border: 5x solid black;
+}
+
+
+.loginhere{
+    background-color: blue;
+    padding: 10px 50px;
+    border-radius: 25px;
+    color: white;
+    border: 2px solid white;
+    margin-top: 30px;
+}
+
+
+
+
+.card-h {
+    text-align: center;
+}
+
+.UNIQUE-RTC{
+    color: rgb(0, 21, 255);
+
+}
+.live-class{
+    background-color: white;
+    height: 110px;
+    margin-left: 40px ;
+    width: 380px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 5px;
+    display: inline-block; vertical-align: middle;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-left: 5px;
+    
+
+}
+.recorded-classes{
+    height: 130px;
+    background-color: white;
+    margin-left: 40px ;
+    width: 380px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 5px;
+    display: inline-block; vertical-align: middle;
+    border-radius: 10px;
+    margin-top: 70px;
+    padding-left: 5px;
+
+}
+.structured-learning{
+    background-color: white;
+    height: 110px;
+    margin-left: 40px ;
+    width: 380px;
+    border: 2px solid rgb(130, 128, 128);
+    margin: 20px;
+    padding: 5px;
+    display:inline-block;
+    border-radius: 10px;
+   
+    padding-left: 5px;
+
+}
+.feture-con{
+    height: 50px;
+     width: 90px;
+   
 }
