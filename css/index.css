@@ -1,7 +1,13 @@
 body {
     margin: 0%;
 }
-
+.nav-option:hover{
+color: red;
+font-weight: bold;
+}
+.dropdown-item:hover{
+    color: blue;
+}
 .head-div {
     height: 40px;
     width: 100%;
