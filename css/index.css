@@ -1,0 +1,46 @@
+body{
+    margin: 0%;
+}
+.head-div{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(10, 202, 202);
+}
+nav{
+    height: 140px;
+    width: 100%;
+    background-color: rgb(225, 251, 251);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.open-book-label{
+ margin-left: 0%;
+  margin-bottom: 0%;
+  margin-top: 130px;
+
+}
+.logo{
+    margin-bottom: 0;
+  
+    margin-left: 20px;
+}
+.navigation{
+display: inline-block;
+margin: 10px 30px;
+text-decoration: none !important;
+color: #130f0f;
+margin-left: auto;
+}
+.nav-links {
+    align-items: center;
+
+    display: inline-block;
+    margin: 10px 30px;
+    text-decoration: none;
+    color: #1c1919;
+}
+.nav-links ul li {
+    text-decoration: none;
+    color: #100e0e;
+}
