@@ -121,14 +121,16 @@ body {
 .cource-cards-div .card{
     height: 300px;
     margin-top: 60px;
-    width: 300px;
-    border: 5px solid black;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 5px;
 
 } 
 .cource-card{
     height: 220px;
-    width: 250px;
+    width: 267px;
     border: 5x solid black;
+    border-radius: 5px;
 }
 
 
@@ -149,7 +151,9 @@ body {
 }
 
 .UNIQUE-RTC{
+    margin-top: 50PX;
     color: rgb(0, 21, 255);
+    margin-bottom: 0%;
 
 }
 .live-class{
