@@ -139,10 +139,7 @@ font-weight: bold;
     height: 220px;
     width: 270px;
     border: 5x solid black;
-
 }
-
-
 .loginhere{
     background-color: blue;
     padding: 10px 50px;
@@ -151,19 +148,13 @@ font-weight: bold;
     border: 2px solid white;
     margin-top: 30px;
 }
-
-
-
-
 .card-h {
     text-align: center;
 }
-
 .UNIQUE-RTC{
     margin-top: 50PX;
     color: rgb(0, 21, 255);
     margin-bottom: 0%;
-
 }
 .live-class{
     background-color: white;
@@ -176,8 +167,6 @@ font-weight: bold;
     display: inline-block; vertical-align: middle;
     border-radius: 10px;
     padding-left: 5px;
-    
-
 }
 .recorded-classes{
     height: 130px;
@@ -191,7 +180,6 @@ font-weight: bold;
     border-radius: 10px;
  margin-top: 40px;
     padding-left: 5px;
-
 }
 .structured-learning{
     background-color: white;
@@ -202,15 +190,12 @@ font-weight: bold;
     margin: 20px;
     padding: 5px;
     display:inline-block;
-    border-radius: 10px;
-   
+    border-radius: 10px;   
     padding-left: 5px;
-
 }
 .feture-con{
     height: 50px;
-     width: 90px;
-   
+     width: 90px;  
 }
 .feture-div{
     background-color: rgb(230, 244, 244);
