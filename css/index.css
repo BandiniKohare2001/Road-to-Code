@@ -129,10 +129,10 @@ font-weight: bold;
     margin-top: 60px;
     width: 270px;
     border-radius: 5px;
-    box-shadow: #adabab 3px 2px 10px 7px;
-
+   
 } 
 .cource-cards-div .card:hover{
+    box-shadow: #adabab 3px 2px 10px 7px;
 
 }
 .cource-card{
